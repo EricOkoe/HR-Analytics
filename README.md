@@ -17,8 +17,12 @@ Similarly, we will investigate whether specific educational backgrounds or marit
 **Attrition:** We will explore if employees in specific departments, with lower satisfaction levels, or those who haven't received promotions in a long time (YearsSinceLastPromotion) are more likely to leave.
 
 
+
 #### DataSets
 **Employee Table:** This central table holds core employee details like demographics (age, gender), job information (department, role), compensation (salary, stock options), and career history (years with company, promotion history). It also includes an "Attrition" flag indicating if an employee left the company.
+
 **Education Table:** This table links to the Employee table and details employee education levels (e.g., Bachelor's degree, Master's degree).
+
 **Performance Rating Table:** This table captures employee performance reviews at specific dates. It includes details on the employee's satisfaction with various aspects of work (environment, training opportunities, work-life balance) and both self and manager performance ratings. This table links to RatingLevel table, Employee table, EducationLevel and SatisfiedLevel.
+
 **SatisfiedLevel Tabel:** The table defines categories for satisfaction levels (e.g., Highly Satisfied, Neutral, Dissatisfied).
